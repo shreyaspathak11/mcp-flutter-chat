@@ -71,11 +71,10 @@ class _TypingIndicatorState extends State<TypingIndicator>
             ),
             child: Row(
               mainAxisSize: MainAxisSize.min,
+              spacing: 4,
               children: [
                 _buildDot(0),
-                const SizedBox(width: 4),
                 _buildDot(1),
-                const SizedBox(width: 4),
                 _buildDot(2),
               ],
             ),
